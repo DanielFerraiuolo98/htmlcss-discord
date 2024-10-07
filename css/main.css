@@ -1,0 +1,24 @@
+/*generals*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: var(--dark);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/jumbo.png);
+    
+}
+
+:root{
+    --blue: #2a5ee8;
+    --violet: #748adb;
+    --dark: #23272a;
+    --gray: #f6f6f6;
+}
