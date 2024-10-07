@@ -8,10 +8,13 @@
     <title>htmlcss-discord</title>
 </head>
 <body>
+    <!--logo della pagina-->
     <img src="/img/logo.svg" alt="logo Discord">
 
-    <div class="container debug">
-        <div class="container-left debug">
+    <!--contenitore principale-->
+    <div class="container">
+        <!--contenitore di sinistra-->
+        <div class="container-left">
             <h1>Eccoti qui!</h1>
             <h3>Siamo così felici di rivederti!</h3>
             <div class="container-small">
@@ -29,14 +32,26 @@
                         <input class="submit" type="submit" value="Accedi">
                     </a>
                     <p>Ti serve un account? 
-                        <a href="#">
+                        <a href="index.html">
                             <span>Registrati</span>
                         </a>
                     </p>
                 </form>  
             </div>  
         </div>
-        <div class="container-right debug"></div>
+
+        <!--contenitore di destra-->
+        <div class="container-right">
+            <img src="/img/qrcode-text.svg" alt="qrcode">
+            <div class="qr-code">
+                <h2>Accedi con codice QR</h2>
+                <p>Scansionalo con <span class="app-discord">l'app mobile di <br> Discord</span> per accedere <br> istantaneamente</p>
+                <a href="#">
+                    <p>O accedi con passkey</p>
+                </a>
+            </div>
+            
+        </div>
        
     </div>
     

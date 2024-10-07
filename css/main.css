@@ -10,9 +10,10 @@ html{
 }
 
 body{
-    color: var(--dark);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../img/jumbo.png);
+    background-image: url(../img/spazio.png);
+    background-size: cover;
     
 }
 
@@ -21,4 +22,91 @@ body{
     --violet: #748adb;
     --dark: #23272a;
     --gray: #f6f6f6;
+}
+
+img{
+    padding: 50px;
+}
+
+/*containers*/
+.container{
+    margin: auto;
+    max-width: 800px;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+}
+
+.container-left{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.container-right{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center
+}
+
+.container-small, form{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+/*text*/
+h1, h3{
+    line-height: 1.5;
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+}
+
+.asterisk{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: var(--blue);
+    padding-bottom: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.submit{
+    background-color: var(--violet);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.submit:hover{
+    background-color: var(--blue);
+    cursor: pointer;
+}
+
+.container-right img{
+    max-width: 100%;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.qr-code p{
+    text-align: center;
+}
+
+.app-discord{
+    color: grey;
 }
