@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     color: var(--dark);
     font-family: Arial, Helvetica, sans-serif;
@@ -49,7 +53,12 @@ div ul li a{
 
 button{
     padding: 5px 15px;
-    border-radius: 35%;
+    border-radius: 16px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 h1{
@@ -65,14 +74,14 @@ h1{
     background-color: white;
     color: var(--dark);
     padding: 10px;
-    border-radius: 35%;
+    border-radius: 16px;
 }
 
 .button-right{
     background-color: var(--dark);
     color: white;
     padding: 10px;
-    border-radius: 35%;
+    border-radius: 16px;
 }
 
 .display-flex{
@@ -96,6 +105,11 @@ h1{
     width: 60%;
 }
 
+.image img{
+    width: 100%;
+    max-width: 100%;
+}
+
 .text{
     width: 40%;
     display: flex;
@@ -113,6 +127,19 @@ h1{
     padding: 10px;
 }
 
+.wave{
+    background-image: url(../img/wave.svg);
+    opacity: 0.03;
+    height: 100px;
+}
+
+.wave-rotate{
+    background-image: url(../img/wave.svg);
+    opacity: 0.03;
+    height: 100px;
+    transform: rotate(-180deg);
+}
+
 #meet div h2{
     font-size: 40px;
 }
@@ -127,7 +154,7 @@ h1{
 
 #technology{
     background-color: var(--gray);
-    padding: 10px; 
+    padding: 20px; 
 }
 
 .technology-top{
