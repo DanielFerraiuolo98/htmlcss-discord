@@ -51,6 +51,10 @@ div ul li a{
     color: white;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 button{
     padding: 5px 15px;
     border-radius: 16px;
@@ -59,6 +63,7 @@ button{
 button:hover{
     cursor: pointer;
     transform: scale(1.1);
+    color: green;
 }
 
 h1{
@@ -209,9 +214,11 @@ footer{
     padding: 20px;
 }
 
-footer h3{
+footer h2{
     color: var(--violet);
     padding-top: 20px;
+    width: 100%;
+    
 }
 
 footer img{
@@ -228,13 +235,15 @@ footer img{
 
 .lista{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    width: 100%;
 }
 
 footer ul{
     color: var(--violet);
-    padding: 20px;
-    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 footer ul li{
@@ -254,6 +263,12 @@ span{
     color: white;
 }
 
+.fa-brands, .fa-twitter{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
 
 
 
