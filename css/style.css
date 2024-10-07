@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: var(--dark);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --blue: #2a5ee8;
+    --violet: #748adb;
+    --dark: #23272a;
+    --gray: #f6f6f6;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: var(--blue);
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+}
+
+div ul li a{
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    padding: 5px 15px;
+    border-radius: 35%;
+}
+
+h1{
+    color: white;
+}
+
+#hero div p{
+    color: white; 
+    padding: 5px; 
+}
+
+.button-left{
+    background-color: white;
+    color: var(--dark);
+    padding: 10px;
+    border-radius: 35%;
+}
+
+.button-right{
+    background-color: var(--dark);
+    color: white;
+    padding: 10px;
+    border-radius: 35%;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero{
+    padding: 10px;
+    background-color: var(--blue);
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 500px;
+}
+
+#place{
+    padding: 10px;
+}
+
+.image{
+    width: 60%;
+}
+
+.text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#place div h2{
+    font-size: 40px;
+    align-self: flex-start;
+}
+
+#meet{
+    background-color: var(--gray);
+    padding: 10px;
+}
+
+#meet div h2{
+    font-size: 40px;
+}
+
+#community{
+    padding: 10px;
+}
+
+#community div h2{
+    font-size: 40px;
+}
+
+#technology{
+    background-color: var(--gray);
+    padding: 10px; 
+}
+
+.technology-top{
+    text-align: center;
+}
+
+.technology-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+#technology div h2{
+    font-size: 40px;
+    padding: 10px;
+}
+
+#cta{
+    background-color: var(--gray);
+    padding: 10px;
+}
+
+#cta div h2{
+    text-align: center;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#cta .btn button{
+    background-color: var(--violet);
+    color: white;
+}
+
+footer{
+    background-color: var(--dark);
+    color: white;
+    padding: 10px;
+}
+
+.footer-top{
+    border-bottom: 1px solid var(--violet);
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+footer h3{
+    color: var(--violet);
+    padding-top: 20px;
+}
+
+footer img{
+    width: 40px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.flag{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline
+}
+
+.lista{
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer ul{
+    color: var(--violet);
+    padding: 20px;
+    margin-left: 20px;
+}
+
+footer ul li{
+    padding: 10px;
+}
+
+span{
+    margin-left: 25px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.bottone{
+    background-color: var(--violet);
+    color: white;
+}
+
+
+
+
